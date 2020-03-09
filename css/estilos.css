@@ -119,17 +119,16 @@ h1 strong{
 
 /* Main section */
 .hero{
-    height: 100%;
     background-color: #1d252c;
     background-position-x: right;
     padding: 5%;
     display: flex;
-    align-items: center;
+    align-items: jsutify;
     justify-content: space-between;
 }
 
 .hero_img{
-    width: 70%;
+    max-width: 500px;
     object-fit: cover;
 }
 
@@ -224,10 +223,10 @@ h1 strong{
     border-radius: 10px;
     padding: 3%;
     margin: 1%;
-    width: 48%;
     overflow: hidden;
     flex-shrink: 0;
     background: #fafafa;
+    max-width: 400px;
 }
 
 h2{
@@ -238,8 +237,8 @@ h2{
 
 .event h3{ 
     display: flex;
-    text-align: center;
-    padding: 5%;
+    text-align: justify;
+    padding: 10px;
     font-weight: bold;
 }
 
@@ -248,7 +247,7 @@ h2{
 }
 
 .event_imageContainer img{
-    max-width: 100%;
+    max-width: 450px;
     object-fit: cover;
 }
 
