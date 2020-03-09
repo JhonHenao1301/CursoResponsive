@@ -98,6 +98,7 @@ h1{
     letter-spacing: -2px;
     color: white;
     margin: 0;
+    max-width: 400px;
 }
 
 h1 strong{
@@ -123,7 +124,7 @@ h1 strong{
     background-position-x: right;
     padding: 5%;
     display: flex;
-    align-items: jsutify;
+    align-items: justify;
     justify-content: space-between;
 }
 
