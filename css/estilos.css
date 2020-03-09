@@ -244,7 +244,7 @@ h2{
 }
 
 .event_imageContainer{
-    width: 100%;
+    max-width: 450px;
 }
 
 .event_imageContainer img{
